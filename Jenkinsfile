@@ -1,7 +1,7 @@
 def img
 pipeline {
     environment {
-        registry = "ApsaraRam/JenkinsTutorial" //To push an image to Docker Hub, you must first name your local image using your Docker Hub username and the repository name that you created through Docker Hub on the web.
+        registry = "apsara222/jenkins_tutorial1" //To push an image to Docker Hub, you must first name your local image using your Docker Hub username and the repository name that you created through Docker Hub on the web.
         registryCredential = 'DOCKERHUB'
         githubCredential = 'GITHUB'
         dockerImage = ''
